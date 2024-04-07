@@ -1,9 +1,9 @@
-import sys
+
 from cx_Freeze import setup, Executable
 
 
 build_exe_options = {
-    "packages": ["pytube", "threading"],
+    "packages": ["pytube", "threading", "tqdm"],
     "include_files": ["youtube.ico"]
 }
 
